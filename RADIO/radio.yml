@@ -1,4 +1,4 @@
-checksum: 31331
+checksum: 55470
 manuallyEdited: 0
 timezoneMinutes: 0
 semver: 2.10.0
@@ -51,7 +51,7 @@ trainer:
          srcChn: 0
          mode: REPL
          studWeight: 100
-view: 2
+view: 0
 fai: 0
 beepMode: mode_all
 alarmsFlash: 0
@@ -73,11 +73,11 @@ beepLength: 2
 hapticStrength: 2
 gpsFormat: 0
 speakerPitch: 0
-speakerVolume: 17
+speakerVolume: 23
 vBatMin: 66
 vBatMax: 84
 backlightBright: 0
-globalTimer: 46955
+globalTimer: 57276
 bluetoothBaudrate: 0
 bluetoothMode: OFF
 countryCode: 2
@@ -89,9 +89,9 @@ disableRssiPoweroffAlarm: 0
 USBMode: 0
 jackMode: 0
 ttsLanguage: "en"
-beepVolume: 3
+beepVolume: 4
 wavVolume: 4
-varioVolume: 2
+varioVolume: 4
 backgroundVolume: 3
 varioPitch: 0
 varioRange: 0
@@ -122,9 +122,9 @@ switchConfig:
       name: ""
 backlightColor: 0
 bluetoothName: "73742Q-\x80"
-ownerRegistrationID: "QN-0001E"
+ownerRegistrationID: "BET4-000"
 rotEncMode: 1
-uartSampleMode: 1
+uartSampleMode: 0
 audioMuteEnable: 0
 radioGFDisabled: 0
 radioTrainerDisabled: 0

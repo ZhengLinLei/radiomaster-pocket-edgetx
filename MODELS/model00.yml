@@ -1,6 +1,6 @@
 semver: 2.10.0
 header: 
-   name: "QN-0001EE"
+   name: "BET4-0001"
 timers: 
    0:
       start: 0
@@ -135,7 +135,7 @@ mixData:
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: "BUZZER"
+   name: "TURTLE"
  -
    weight: 100
    destCh: 7
@@ -150,7 +150,7 @@ mixData:
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: ""
+   name: "BUZZER"
 limitData: 
    0:
       min: 0
@@ -275,9 +275,37 @@ customFn:
    5:
       swtch: "SD2"
       func: PLAY_TRACK
-      def: "buzact,1x"
+      def: "rth,1x"
    6:
       swtch: "SD0"
+      func: PLAY_TRACK
+      def: "safeof,1x"
+   7:
+      swtch: "SC0"
+      func: PLAY_TRACK
+      def: "turton,1x"
+   8:
+      swtch: "SC1"
+      func: PLAY_TRACK
+      def: "turtof,1x"
+   9:
+      swtch: "SC0"
+      func: PLAY_TRACK
+      def: "lghton,1x"
+   10:
+      swtch: "SC1"
+      func: PLAY_TRACK
+      def: "lghtof,1x"
+   11:
+      swtch: "SC2"
+      func: PLAY_TRACK
+      def: "lghton,1x"
+   12:
+      swtch: "SE2"
+      func: PLAY_TRACK
+      def: "buzact,1x"
+   13:
+      swtch: "SE0"
       func: PLAY_TRACK
       def: "buzoff,1x"
 thrTraceSrc: Thr
